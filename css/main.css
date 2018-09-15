@@ -23,7 +23,7 @@ h2{
 }
 /***** HEADER *****/
 header {
-    height: 800px;
+    height: 600px;
     background: url('../img/hero-background.png');
     background-size: cover;
     padding: 80px 0;
@@ -33,20 +33,22 @@ header h1 {
     font-family:'Lora', serif;
     font-size:30px;
     color: #BBC085;
+    margin-top: -30px;
 }
 nav {
     float: right;
-    padding: 75px 40px;
-}
+    margin-top:-55px;
+    padding: 75px 45px;
+    }
 nav ul li{
     display: inline-block;
 }
 nav ul li a {
     text-transform:uppercase;
     text-decoration:none;
-    font-size:10px;
+    font-size:15px;
     color:#828282;
-    padding-left: 60px;
+    padding-left: 50px;
 }
 header h2 {
     width:1000px;
@@ -55,7 +57,7 @@ header h2 {
     font-size:72px;
     line-height:80px;
     color: #2b2b2b;
-    padding: 20px 0;
+    padding:30px 0;
 }
 header h2 span {
     color:#9b9b9b;
